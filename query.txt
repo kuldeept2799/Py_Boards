@@ -1,0 +1,25 @@
+Employee.objects.get_or_create(emp_code="LTPL04", emp_name="Ajay", salary=15000)
+Employee.objects.create(emp_code="LTPL04", emp_name="Ajay", salary=15000)
+Employee.objects.create(emp_code="LTPL05", emp_name="Raj", salary=10000)
+Employee.objects.get(emp_code="LTPL110", emp_name="RA")
+
+
+Employee.objects.create(emp_code="LTPL05", emp_name="Raj", salary=10000)
+
+employee_dict = [
+                {
+                    "emp_code": "LTPL6",
+                    "name": "Nisarg",
+                    "sal": 5000
+                },
+                {
+                    "emp_code": "LTPL7",
+                    "name": "Suhani",
+                    "sal": 50000
+                },
+                {
+                    "emp_code": "LTPL8",
+                    "name": "Priya",
+                    "sal": 40000
+                }
+]
